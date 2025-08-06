@@ -14,9 +14,10 @@ function diminuiTamanho() {
     if (tamanhoSenha >1){
         tamanhoSenha--;
     }
-    numerosenna.textContent = tamanhosenna;
+    numeroSenha.textContent = tamanhoSenha;
 geraSenha();
 }
+
 function aumentaTamanho(){
     if(tamanhoSenha < 20){
         numeroSenha++;
